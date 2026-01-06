@@ -1,0 +1,30 @@
+:root {
+  --orange: #ff7a18;
+  --orange-dark: #e6670f;
+  --bg: #fafafa;
+}
+
+body {
+  background: var(--bg);
+  color: #111;
+  font-family: system-ui, sans-serif;
+}
+
+button {
+  background: var(--orange);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--orange-dark);
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
